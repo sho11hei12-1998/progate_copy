@@ -1,0 +1,407 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Avenir Next";
+  min-width: 1280px;
+  box-sizing: border-box;
+}
+
+/*Header*/
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 200000;
+  width: 100%;
+  height: 48px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(160, 166, 179, 0.3);
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  font-family: Lato, "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo,
+    "MS PGothic", sans-serif;
+  color: #2b546a;
+  font-weight: 400;
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+  padding-left: 12px;
+}
+
+.header-nav-logo {
+  float: left;
+  width: 48px;
+  height: 48px;
+  background-color: #2b546a;
+  transition: all 0.2s ease;
+  line-height: 48px;
+}
+
+.header-nav-logo img {
+  height: 30px;
+  padding: 10px 0 0 13px;
+}
+
+.header-nav a {
+  margin: 15px 15px 0 15px;
+}
+
+/*Main*/
+.main-wrapper {
+  background-color: #f8fbfe;
+  padding: 56px 215px 0 210px;
+}
+
+/*path*/
+.title {
+  font-family: Lato, "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo,
+    "MS PGothic", sans-serif;
+  font-weight: 400;
+  color: #2b546a;
+  margin: 0 0 24px;
+  padding: 48px 0 0 15px;
+}
+
+.title img {
+  height: 18px;
+  margin: 0 5px 0 0;
+}
+
+.path-main-container {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 6px #e8e8e8;
+  background-color: #fff;
+  cursor: pointer;
+  text-align: left;
+  margin: 0 10px;
+}
+
+.path-main-text {
+  display: inline-block;
+  width: 60%;
+  margin: 80px 70px 80px 70px;
+}
+
+.path-main-text h1 {
+  color: #2b546a;
+  font-family: Lato, "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo,
+    "MS PGothic", sans-serif;
+  font-weight: 700;
+}
+
+.path-main-text p {
+  color: #5876a2;
+  font-family: Lato, "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo,
+    "MS PGothic", sans-serif;
+  font-weight: 400;
+}
+
+.path-main-list {
+  display: flex;
+  background-color: #f5f8fb;
+  margin-top: 20px;
+}
+
+.path-main-list-item {
+  background-color: #f2f5f7;
+}
+
+.path-main-list h2 {
+  color: #2b546a;
+  font-family: Lato, "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo,
+    "MS PGothic", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.path-main-list img {
+  max-width: 100%;
+  height: 15px;
+  margin: 0 5px 0 0;
+}
+
+.language-main-img {
+  width: 40%;
+  margin: 80px 50px 80px 0;
+}
+
+.language-main-img img {
+  width: 350px;
+}
+
+/*language-path-list*/
+.language-path-list {
+  margin-top: 32px;
+  padding: 0 10px;
+}
+
+.path-card {
+  display: inline-block;
+  width: 30%;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 0 6px #e8e8e8;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.path-item h4 {
+  color: #2b546a;
+  font-family: Lato, "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo,
+    "MS PGothic", sans-serif;
+  font-weight: 400;
+}
+
+.path-item p {
+  color: #2b546a;
+  font-family: Lato, "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo,
+    "MS PGothic", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.path-item img {
+  height: 150px;
+}
+
+.path-text img {
+  max-width: 100%;
+  height: 15px;
+  margin: 0 5px 0 0;
+}
+
+/*Lesson*/
+.lesson-container {
+  width: 100%;
+}
+
+.lesson-card {
+  display: inline-block;
+  width: 23%;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 0 6px #e8e8e8;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.lesson-item {
+  border-radius: 4px;
+}
+
+.lesson-item img {
+  width: 90px;
+}
+
+.lesson-item h4 {
+  margin: 32px 0 20px;
+  color: #2b546a;
+  font-family: Lato, "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo,
+    "MS PGothic", sans-serif;
+  font-weight: 400;
+}
+
+.lesson-item p {
+  color: #2b546a;
+  font-family: Lato, "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo,
+    "MS PGothic", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.lesson-text {
+  margin: 15px 0 34px;
+  padding: 0 24px;
+}
+
+.introduction {
+  margin: 10px 0 34px;
+  padding: 0 24px;
+  color: #2b546a;
+  font-family: Lato, "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo,
+    "MS PGothic", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.lesson-num {
+  margin: 0 0 40px;
+}
+
+.lesson-num img {
+  width: 15px;
+  margin: 0 5px 0 0;
+  max-width: 100%;
+  height: auto;
+}
+
+/* modal */
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-inner {
+  position: absolute;
+  top: 8%;
+  right: 0;
+  left: 0;
+  width: 480px;
+  padding-bottom: 60px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.modal-header {
+  height: 8px;
+  width: 100%;
+  margin-bottom: 60px;
+  border-radius: 8px 8px 0 0;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/modal_bar.svg");
+}
+
+.modal-introduction p {
+  color: #5876a3;
+  width: 384px;
+  line-height: 32px;
+  text-align: left;
+  margin: 36px auto 40px;
+}
+
+.modal-close-btn {
+  font-size: 13px;
+  color: #8491a5;
+  width: 200px;
+  padding: 16px 0;
+  border: 0;
+  background-color: #f0f4f9;
+  cursor: pointer;
+}
+
+.modal-close-btn:hover {
+  color: #8491a5;
+  background-color: #ccd9ea;
+  transition: 0.3s ease-in-out;
+}
+
+.main-link {
+  text-align: center;
+  font-family: Lato, "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo,
+    "MS PGothic", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #5876a3;
+  padding: 50px 0;
+  margin: 0;
+}
+
+.main-link a {
+}
+
+/*Footer*/
+.footer {
+  border-top: 1px solid #eee;
+  clear: left;
+  letter-spacing: 0.04em;
+  font-family: "AvenirNext", "Lato", "Hirago KakuGothic ProN", Meiryo,
+    sans-serif;
+  background: #fff;
+  width: 100%;
+  height: 460px;
+}
+
+.footer-container {
+  display: flex;
+  padding: 50px 215px 0 210px;
+}
+
+.footer-left {
+  width: 37%;
+  padding-top: 22px;
+}
+
+.download {
+  padding: 100px 0 60px;
+}
+
+.download p {
+  margin: 0 0 10px;
+  font-family: AvenirNext, Lato, "Hirago KakuGothic ProN", Meiryo, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #183c61;
+}
+
+.download img {
+  margin-right: 10px;
+}
+
+.footer-right {
+  display: flex;
+  width: 63%;
+}
+
+.item-right {
+  padding-right: 40px;
+}
+
+.item-right p {
+  font-family: AvenirNext, Lato, "Hirago KakuGothic ProN", Meiryo, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #5876a3;
+}
+
+.footer-right h4 {
+  color: #2b546a;
+  font-family: AvenirNext, Lato, "Hirago KakuGothic ProN", Meiryo, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.footer-right li {
+  list-style: none;
+}
+
+.footer-right a {
+  color: #6e8998;
+  font-family: AvenirNext, Lato, "Hirago KakuGothic ProN", Meiryo, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.sns {
+  margin-top: 30px;
+}
+
+.logo-card {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 6px, rgba(0, 0, 0, 0.12) 0 1px 4px;
+  border-radius: 2px;
+  padding: 20px 15px;
+  max-width: 200px;
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+.logo-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.item-right-text {
+  width: 100%;
+  max-width: 200px;
+  padding: 10px 15px;
+  margin-top: 20px;
+  background-color: #f8fbfe;
+}
